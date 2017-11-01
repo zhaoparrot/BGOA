@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/profile/profile",
+        "pages/logs/logs",
+        "pages/testview/tpage",
+        "pages/index/index",
+        "pages/main/main",
+        "pages/tour/tour"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#003894",
+        "navigationBarTitleText": "用户登录",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/testview/tpage",
+                "text": "某页面"
+            },
+            {
+                "pagePath": "pages/main/main",
+                "text": "业务办理"
+            },
+            {
+                "pagePath": "pages/profile/profile",
+                "text": "我"
+            }
+        ],
+        "selectedColor": "#003894"
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    }
+}

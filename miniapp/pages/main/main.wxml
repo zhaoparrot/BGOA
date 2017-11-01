@@ -1,0 +1,26 @@
+<!--pages/main/main.wxml1AAD16-->
+<text style="margin:10px">请选择您要办理的业务</text>
+<navigator open-type="navigateTo" url="/pages/tour/tour" hover-class="navigator-hover" class="navigator">
+行程登记
+<image src="../../res/you.png" style="width: 20px; height: 20px;float:right "/>
+</navigator>
+<navigator open-type="navigateTo" url="/pages/tour/tour" hover-class="navigator-hover" class="navigator">
+预约会议室
+<image src="../../res/you.png" style="width: 20px; height: 20px;float:right "/>
+</navigator>
+<navigator open-type="navigateTo" url="/pages/tour/tour" hover-class="navigator-hover" class="navigator">
+请假记录
+<image src="../../res/you.png" style="width: 20px; height: 20px;float:right "/>
+</navigator>
+
+<!-- <block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view> -->

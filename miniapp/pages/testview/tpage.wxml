@@ -1,0 +1,41 @@
+<view>
+<text>出差情况录入页面</text>
+</view>
+<view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+ 
+
+<view class="section">
+  <view class="section__title">行程首站</view>
+  <picker name="loc0" mode="region" bindchange="bindRegionChange0" value="{{region.loc0}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region.loc0[0]}}，{{region.loc0[1]}}，{{region.loc0[2]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">第二站</view>
+  <picker name="loc1" mode="region" bindchange="bindRegionChange1" value="{{region.loc1}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region.loc1[0]}}，{{region.loc1[1]}}，{{region.loc1[2]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">第三站</view>
+  <picker name="loc2" mode="region" bindchange="bindRegionChange2" value="{{region.loc2}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region.loc2[0]}}，{{region.loc2[1]}}，{{region.loc2[2]}}
+    </view>
+  </picker>
+</view>
+
+ 
+  <view class="btn-area">
+    <button formType="submit" type="primary" loading="{{loading}}">提交</button>
+  
+  </view>
+</form>
+</view>
+<view><button open-type="contact">联系客服</button></view>

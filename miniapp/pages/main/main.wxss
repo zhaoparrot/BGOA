@@ -1,0 +1,10 @@
+/* pages/main/main.wxss */
+.navigator-hover {
+    color:#003894;
+}
+.navigator{
+    background-color: #fff;
+    margin: 10px;
+    border: #eee 1px solid;
+
+}
